@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>漏洞扫描及武器库合集</title>
+    <meta content="" name="description"/>
+    <meta content="" name="author"/>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/static/assets/images/favicon.png" type="image/x-icon"/>
+    <!-- For iPhone -->
+    <!-- For iPhone 4 Retina display -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114">
+    <!-- For iPad -->
+    <link rel="apple-touch-icon-precomposed" sizes="72x72">
+    <!-- For iPad Retina display -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144">
+
+    <!-- CORE CSS FRAMEWORK - START -->
+    <link href="/static/assets/plugins/pace/pace-theme-flash.css" rel="stylesheet" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="https://www.jq22.com/jquery/bootstrap-3.3.4.css">
+    <link href="/static/assets/fonts/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/assets/fonts/webfont/cryptocoins.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/assets/css/animate.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/assets/plugins/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" type="text/css"/>
+    <!-- CORE CSS FRAMEWORK - END -->
+
+    <!-- HEADER SCRIPTS INCLUDED ON THIS PAGE - START -->
+    <link href="/static/assets/plugins/jvectormap/jquery-jvectormap-2.0.1.css" rel="stylesheet" type="text/css"
+          media="screen">
+    <link href="/static/assets/plugins/icheck/skins/all.css" rel="stylesheet" type="text/css" media="screen">
+    <!-- HEADER SCRIPTS INCLUDED ON THIS PAGE - END -->
+
+    <!-- CORE CSS TEMPLATE - START -->
+    <link href="/static/assets/css/style.css" rel="stylesheet" type="text/css"/>
+    <!-- CORE CSS TEMPLATE - END -->
+    <style>
+        thead tr {
+            margin-left: 100px;
+        }
+    </style>
+</head>
+<!-- END HEAD -->
+
+<!-- BEGIN BODY -->
+
+<body class=" ">
+<div id="app">
+    <!-- START TOPBAR -->
+    <div class='page-topbar'>
+        <div>
+            <h3 style="position: relative;left: 20px;top:6px">漏洞扫描及武器库合集</h3>
+        </div>
+        <div class='quick-area'>
+            <div class='pull-left'>
+
+            </div>
+            <div class='pull-right'>
+                <ul class="info-menu right-links list-inline list-unstyled" style="position:relative;top: -40px;">
+                    <li class="profile">
+                        <a href="#" data-toggle="dropdown" class="toggle">
+                            <img src="/static/data/profile/profile.jpg" alt="user-image" class="img-circle img-inline">
+                            <span> {% verbatim %} {{ userss }} {% endverbatim %}</span>
+                        </a>
+
+                    </li>
+                    <li class="chat-toggle-wrapper">
+                        <a href="#" data-toggle="chatbar" class="toggle_chat">
+                            <i class="fa fa-comments"></i>
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <!-- END TOPBAR -->
+    <!-- START CONTAINER -->
+    <div class="page-container row-fluid container-fluid">
+
+        <!-- SIDEBAR - START -->
+
+        <div class="page-sidebar fixedscroll">
+
+                    <!-- MAIN MENU - START -->
+            <div class="page-sidebar-wrapper" id="main-menu-wrapper">
+
+                <ul class='wraplist'>
+                    <li class='menusection'></li>
+                    <li class="open">
+                        <a href="javascript:;" @click="index">
+
+                            <span class="title">首页</span>
+                        </a>
+                    </li>
+
+                    <li class="">
+                        <a href="javascript:;">
+
+                            <span class="title">漏洞扫描</span>
+                            <span class=""></span>
+                        </a>
+                        <ul class="sub-menu">
+
+                        </ul>
+                    </li>
+
+                    <li class="">
+                        <a href="javascript:;"@click="line">
+                            <i class="fa fa-exchange"></i>
+                            <span class="title" >awvs</span>
+                            <span class=""></span>
+                        </a>
+                        <ul class="sub-menu">
+
+                        </ul>
+                    </li>
+
+                    <li class="">
+                        <a href="javascript:;"@click="tree">
+                            <i class="fa fa-exchange"></i>
+                            <span class="title" >xary</span>
+                            <span class=""></span>
+                        </a>
+                        <ul class="sub-menu">
+
+                        </ul>
+                    </li>
+
+                    <li class="">
+                        <a href="javascript:;" @click="ScreenShow">
+
+                            <span class="title">信息收集</span>
+                            <span class=""></span>
+                        </a>
+                        <ul class="sub-menu">
+
+                        </ul>
+                    </li>
+
+                    <li class="">
+                        <a href="javascript:;"@click="forest">
+
+                            <i class="fa fa-exchange"></i>
+                            <span class="title" >goby</span>
+                            <span class=""></span>
+                        </a>
+                        <ul class="sub-menu">
+
+                        </ul>
+                    </li>
+
+
+
+
+
+                    <li class="">
+                        <a href="javascript:;" @click="ScreenShow">
+
+                            <span class="title">流量分析</span>
+                            <span class=""></span>
+                        </a>
+                        <ul class="sub-menu">
+
+                        </ul>
+                    </li>
+
+                    <li class="">
+                        <a href="javascript:;" @click="ScreenShow">
+
+                            <span class="title">导航模块</span>
+                            <span class=""></span>
+                        </a>
+                        <ul class="sub-menu">
+
+                        </ul>
+                    </li>
+
+
+                    <li class="">
+                        <a href="javascript:;" @click="logout">
+                            <i class="fa fa-sign-out" aria-hidden="true"></i>
+                            <span class="title">退出</span>
+                            <span class=""></span>
+                        </a>
+                        <ul class="sub-menu">
+
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+            <!-- MAIN MENU - END -->
+
+        </div>
+        <!--  SIDEBAR - END -->
+
+        <!-- START CONTENT -->
+        <section id="main-content" class="">
+            <div class="wrapper main-wrapper row" style="">
+
+                <div class="clearfix"></div>
+                <!-- MAIN CONTENT AREA STARTS -->
+
+
+
+                <div class="clearfix"></div>
+
+
+                <div class="col-lg-12">
+                    <section class="box" style="height: 700px;overflow:auto">
+                        <header class="panel_header">
+                            <h2 class="title pull-left" style="font-size: 23px;color: black">漏洞扫描及武器库合集</h2>
+                            <div class="actions panel_actions pull-right">
+                                <a class="box_toggle fa fa-chevron-down"></a>
+                                <a class="box_setting fa fa-cog" data-toggle="modal" href="javascript:;"></a>
+                                <a class="box_close fa fa-times"></a>
+                            </div>
+                        </header>
+                        <div class="content-body">
+                            <div class="row">
+                                <div class="col-xs-12">
+
+                                    <div class="table-responsive" data-pattern="priority-columns">
+
+                                        <div class="col-lg-12">
+                                            <section class="box">
+                                                <header class="panel_header">
+                                                    <h2 class="title pull-left">漏洞扫描及武器库合集</h2>
+                                                    <div class="actions panel_actions pull-right">
+                                                        <a class="box_toggle fa fa-chevron-down"></a>
+                                                        <a data-toggle="modal" href="#section-settings" class="box_setting fa fa-cog"></a>
+                                                        <a class="box_close fa fa-times"></a>
+                                                    </div>
+                                                </header>
+                                                <div class="content-body">
+                                                    <div class="row">
+                                                        <div class="col-xs-12">
+                                                            <div data-pattern="priority-columns" class="table-responsive"><div>
+                                                                <div style="width: 500px; height: 10px; display: inline-block;">数据</div>
+<!--                                                                <iframe name="myiframe" id="myrame" src="https://weapon-pc:3443/#/dashboard/" frameborder="0" align="left" width="1920" height="420" scrolling="no">-->
+<!--                                                                    <p>你的浏览器不支持iframe标签</p>-->
+<!--                                                                </iframe>-->
+                                                                goby
+
+                                                            </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </div>
+
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+<!--                        <table class="table table-bordered" style="color: black;font-size: 23px">-->
+<!--                            <thead>-->
+
+<!--                            <tr class="table table" style="background: #4d9cf8">-->
+<!--                                <th>课程标题</th>-->
+<!--                                <th>简介</th>-->
+<!--                                <th>教师</th>-->
+<!--                                -->
+<!--                                <th>上课时间</th>-->
+<!--                                <th>上课教室</th>-->
+<!--                            </tr>-->
+
+<!--                            </thead>-->
+<!--                            <tbody>-->
+
+<!--                            <tr v-for="item  in subject_data">-->
+<!--                                <td >{% verbatim %} {{ item.subject_title }} {% endverbatim %} </td>-->
+<!--                                <td>{% verbatim %} {{ item.introduction }} {% endverbatim %} </td>-->
+<!--                                <td>{% verbatim %} {{ item.teacher }} {% endverbatim %} </td>-->
+<!--                                -->
+<!--                                <td>{% verbatim %} {{ item.startime }} {% endverbatim %} </td>-->
+<!--                                <td>{% verbatim %} {{ item.class_name }} {% endverbatim %} </td>-->
+<!--                            </tr>-->
+
+
+<!--                        </table>-->
+
+
+                    </section>
+
+                </div>
+
+                <div class="clearfix"></div>
+
+
+                <!-- MAIN CONTENT AREA ENDS -->
+            </div>
+        </section>
+        <!-- END CONTENT -->
+        <div class="page-chatapi hideit">
+
+            <div class="search-bar">
+                <input type="text" placeholder="Search" class="form-control">
+            </div>
+
+            <div class="chat-wrapper">
+
+                <h4 class="group-head">Favourites</h4>
+                <ul class="contact-list">
+
+                    <li class="user-row " id='chat_user_1' data-user-id='1'>
+                        <div class="user-img">
+                            <a href="#"><img src="/static/data/profile/avatar-1.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Joge Lucky</a></h4>
+                            <span class="status available" data-status="available"> Available</span>
+                        </div>
+                        <div class="user-status available">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+                    <li class="user-row " id='chat_user_2' data-user-id='2'>
+                        <div class="user-img">
+                            <a href="#"><img src="/static/data/profile/avatar-2.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Folisise Chosiel</a></h4>
+                            <span class="status away" data-status="away"> Away</span>
+                        </div>
+                        <div class="user-status away">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+                    <li class="user-row " id='chat_user_3' data-user-id='3'>
+                        <div class="user-img">
+                            <a href="#"><img src="/static/data/profile/avatar-3.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Aron Gonzalez</a></h4>
+                            <span class="status busy" data-status="busy"> Busy</span>
+                        </div>
+                        <div class="user-status busy">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+
+                </ul>
+
+                <h4 class="group-head">More Contacts</h4>
+                <ul class="contact-list">
+
+                    <li class="user-row " id='chat_user_4' data-user-id='4'>
+                        <div class="user-img">
+                            <a href="#"><img src="/static/data/profile/avatar-4.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Chris Fox</a></h4>
+                            <span class="status offline" data-status="offline"> Offline</span>
+                        </div>
+                        <div class="user-status offline">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+                    <li class="user-row " id='chat_user_5' data-user-id='5'>
+                        <div class="user-img">
+                            <a href="#"><img src="/static/data/profile/avatar-5.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Mogen Polish</a></h4>
+                            <span class="status offline" data-status="offline"> Offline</span>
+                        </div>
+                        <div class="user-status offline">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+                    <li class="user-row " id='chat_user_6' data-user-id='6'>
+                        <div class="user-img">
+                            <a href="#"><img src="/static/data/profile/avatar-1.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Smith Carter</a></h4>
+                            <span class="status available" data-status="available"> Available</span>
+                        </div>
+                        <div class="user-status available">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+                    <li class="user-row " id='chat_user_7' data-user-id='7'>
+                        <div class="user-img">
+                            <a href="#"><img src="/static/data/profile/avatar-2.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Amilia Gozenal</a></h4>
+                            <span class="status busy" data-status="busy"> Busy</span>
+                        </div>
+                        <div class="user-status busy">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+                    <li class="user-row " id='chat_user_8' data-user-id='8'>
+                        <div class="user-img">
+                            <a href="#"><img src="/static/data/profile/avatar-3.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Tahir Jemyship</a></h4>
+                            <span class="status away" data-status="away"> Away</span>
+                        </div>
+                        <div class="user-status away">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+                    <li class="user-row " id='chat_user_9' data-user-id='9'>
+                        <div class="user-img">
+                            <a href="#"><img src="/static/data/profile/avatar-4.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Johanson Wright</a></h4>
+                            <span class="status busy" data-status="busy"> Busy</span>
+                        </div>
+                        <div class="user-status busy">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+                    <li class="user-row " id='chat_user_10' data-user-id='10'>
+                        <div class="user-img">
+                            <a href="#"><img src="/static/data/profile/avatar-5.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Loni Tindall</a></h4>
+                            <span class="status away" data-status="away"> Away</span>
+                        </div>
+                        <div class="user-status away">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+                    <li class="user-row " id='chat_user_11' data-user-id='11'>
+                        <div class="user-img">
+                            <a href="#"><img src="/static/data/profile/avatar-1.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Natcho Herlaey</a></h4>
+                            <span class="status idle" data-status="idle"> Idle</span>
+                        </div>
+                        <div class="user-status idle">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+                    <li class="user-row " id='chat_user_12' data-user-id='12'>
+                        <div class="user-img">
+                            <a href="#"><img src="/static/data/profile/avatar-2.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Shakira Swedan</a></h4>
+                            <span class="status idle" data-status="idle"> Idle</span>
+                        </div>
+                        <div class="user-status idle">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="chatapi-windows ">
+
+        </div>
+    </div>
+</div>
+<!-- END CONTAINER -->
+<!-- LOAD FILES AT PAGE END FOR FASTER LOADING -->
+
+<!-- CORE JS FRAMEWORK - START -->
+<script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script src="/static/assets/js/jquery.easing.min.js"></script>
+<script src="https://www.jq22.com/jquery/bootstrap-3.3.4.js"></script>
+<script src="/static/assets/plugins/pace/pace.min.js"></script>
+<script src="/static/assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+<script src="/static/assets/plugins/viewport/viewportchecker.js"></script>
+<script>
+    window.jQuery || document.write('<script src="../assets/js/jquery-1.11.2.min.js"><\/script>');
+</script>
+<!-- CORE JS FRAMEWORK - END -->
+
+<!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - START -->
+<script src="/static/assets/plugins/sparkline-chart/jquery.sparkline.min.js"></script>
+<script src="/static/assets/js/chart-chartjs.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script src="/static/assets/js/dash-scripts.js"></script>
+<!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - END -->
+
+<!-- CORE TEMPLATE JS - START -->
+<script src="/static/assets/js/scripts.js"></script>
+<!-- END CORE TEMPLATE JS - END -->
+<script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.13/vue.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+<script src="https://unpkg.com/swiper@8/swiper-bundle.js"> </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/4.3.0/echarts.min.js"></script>
+<script>
+    var vm = new Vue({
+        el: '#app',
+        data: {
+            userss: ""
+        },
+        created() {
+            // 判断是否已经登录
+            this.userss = sessionStorage.getItem("username");
+            if (this.userss == null) {
+                alert("抱歉，您还未登录");
+                window.location.href = "http://127.0.0.1:8000/login/"
+            }
+
+        },
+        methods: {
+
+            index(){
+                window.location.href = "http://127.0.0.1:8000/index/"
+            },
+
+            line(){
+                window.location.replace("http://127.0.0.1:8000/href/line/")
+            },
+             // 个人信息页面跳转
+            MyMessage() {
+                window.location.replace("http://127.0.0.1:8000/href/pro/")
+            },
+            // 个人课表跳转
+            Mysubject(){
+                 window.location.replace("http://127.0.0.1:8000/href/subject/")
+            },
+
+            //  修改密码
+            UpdatePwd(){
+                 window.location.replace("http://127.0.0.1:8000/href/UpdatePwd/")
+            },
+            //展示教师信息
+            TeachInfo(){
+                 window.location.replace("http://127.0.0.1:8000/pro/TeachInfo/")
+                },
+            screen(){
+                window.location.replace("http://127.0.0.1:8000/href/ScreenShow/")
+            },
+            // 退出
+            logout(){
+                this.userss == null
+                window.location.replace("http://127.0.0.1:8000/login/")
+            }
+        }
+
+    })
+</script>
+
+
+
+</body>
+
+</html>
